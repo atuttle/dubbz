@@ -12,6 +12,14 @@ Once you've got it installed on your server, just have each player open it up in
 
 To chat, just type your message and hit enter. To roll, type `/roll 1d20 a name for your roll`. The number of dice and size are dynamic, so for example, you could roll 3d8 or 1d4 or if you wanted to for some odd reason, you could roll 7d72. The name that you supply for your roll (everything after the dice count and size) will show up as a header for that block of rolls.
 
+## Built using...
+
+Dubbz is built with:
+
+* [Taffy](http://github.com/atuttle/taffy/) for creating a REST api easily in ColdFusion
+* [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
+* [jQuery](http://jquery.com)
+
 ## MIT LICENSE
 
 >Copyright (c) 2011 The ColdFusion Community
