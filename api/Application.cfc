@@ -2,7 +2,7 @@ component
 extends="taffy.core.api"
 {
 
-	this.name = "dubbz";
+	this.name = "dubbz_api";
 	this.datasource = "dubbz";
 	
 	function applicationStartEvent()

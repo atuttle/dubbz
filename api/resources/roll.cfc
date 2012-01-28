@@ -9,7 +9,7 @@ taffy_uri="/{streamId}/roll"
 		
 		//ROLL ALL THE DICE!
 		local.rolls = [];
-		for (local.d = 1; local.d <= diceCount; local.d++)
+		for (local.d = 1; local.d <= arguments.diceCount; local.d++)
 		{
 			arrayAppend(local.rolls, randRange(1,arguments.diceSize));
 		}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Dubbz</title>
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]--><!-- Le styles -->
+        <link href="assets/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/dubbz.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topbar">
+            <div class="topbar-inner">
+                <div class="container-fluid">
+                    <a class="brand" href="#">dubbZ</a>
+					<ul class="nav">
+						<li><a id="refresh" href="#refresh">&#10227; Refresh</a></li>
+						<li><label for="autoRefresh"><input type="checkbox" id="autoRefresh" checked="checked" /> Auto</label></li>
+					</ul>
+                    <form action="#command" class="pull-right" id="cmdForm">
+                    	<input type="text" id="handle" class="input-medium" placeholder="Your Handle" />
+                        <input type="text" id="command" class="input-xxlarge" placeholder="chat or type ``/roll 1d20 for initiative!``" />
+						<input type="submit" value="go" />
+                    </form>
+                </div>
+            </div>
+        </div>
+
+		<div class="container">
+			<!-- this is where the magic happens -->
+			<div class="row"><div class="span16" id="messages"></div></div>
+	        <div class="row"><div class="span16" id="chatlog"><ul></ul></div></div>
+	
+	        <div class="row">
+	            <div class="span16">
+	                <footer>
+	                    <p>
+	                        &copy; 2012 Adam Tuttle
+	                    </p>
+	                </footer>
+	            </div>
+	        </div>
+		</div>
+		
+		<!-- prefer google-hosted jquery; fall back to local copy -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+		<script type="text/javascript">if (typeof jQuery == 'undefined'){document.write(unescape("%3Cscript src='assets/jquery-1.7.1.min.js' type='text/javascript'%3E%3C/script%3E"));}</script>
+		<script type="text/javascript" src="assets/bootstrap-alerts.js"></script>
+		<script type="text/javascript" src="assets/jq-preventDoubleSubmit.js"></script>
+		<!-- app-specific js -->
+		<script type="text/javascript" src="assets/dubbz.js"></script>
+    </body>
+</html>

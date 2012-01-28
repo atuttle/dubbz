@@ -1,0 +1,31 @@
+body {
+    padding-top: 60px;
+}
+.dice {
+	font-size: 2.5em;
+}
+#chatlog {
+	height: 500px;
+	overflow-y: scroll;
+}
+
+
+label {
+	color: #BFBFBF;
+	width: 50px;
+	padding-top: 10px;
+}
+.chat {
+	color: black;
+	list-style: none;
+}
+.roll {
+	color: blue;
+	list-style: none;
+	margin-left: 20px;
+}
+
+.roll h3 {
+	color: blue;
+	margin-left: -15px;
+}
